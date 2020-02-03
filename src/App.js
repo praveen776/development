@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch, Redirect, HashRouter as Router } from 'react-router-dom';
-import Login from './login';
+import Update from './update';
 
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Redirect exact from="/" to="/login" />
-        <Route exact path="/login" component={Login} />
+        <Redirect exact from="/" to="/update" />
+        <Route exact path="/update" component={Update} />
         </Switch>
     </Router>
       )
