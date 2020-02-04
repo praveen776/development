@@ -1,0 +1,20 @@
+.content {
+    margin-top: 33%;
+}
+.content label {
+    display: block;
+    width: 100%;
+}
+input {
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+}
+span.error-msg {
+    color: #f00;
+    font-size: 12px;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+}
